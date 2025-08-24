@@ -1,4 +1,6 @@
 // app/[locale]/layout.tsx
+export const dynamic = 'force-static';
+
 import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";

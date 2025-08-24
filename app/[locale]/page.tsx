@@ -1,4 +1,6 @@
 // app/[locale]/page.tsx
+export const dynamic = 'force-static';
+
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
