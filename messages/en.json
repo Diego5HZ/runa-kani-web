@@ -1,0 +1,31 @@
+{
+  "hero": {
+    "title": {
+      "1": "Secure reports.",
+      "2": "Protected access.",
+      "3": "Real trust."
+    },
+    "subtitle": "Your security, our priority.",
+    "cta": "Get started",
+    "features": "Features"
+  },
+  "features": {
+    "security": {
+      "title": "🔒 Security",
+      "desc": "Verification, PIN and session control to protect your account."
+    },
+    "simplicity": {
+      "title": "⚡ Simplicity",
+      "desc": "Clear and minimal interface for quick and reliable actions."
+    },
+    "trust": {
+      "title": "🤝 Trust",
+      "desc": "Transparency and full control of your personal data."
+    }
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "subtitle": "Join {brand} and take the first step towards a safer experience.",
+    "button": "Download app"
+  }
+}

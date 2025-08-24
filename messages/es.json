@@ -1,0 +1,31 @@
+{
+  "hero": {
+    "title": {
+      "1": "Reportes seguros.",
+      "2": "Acceso protegido.",
+      "3": "Confianza real."
+    },
+    "subtitle": "Tu seguridad, nuestra prioridad.",
+    "cta": "Comenzar",
+    "features": "Características"
+  },
+  "features": {
+    "security": {
+      "title": "🔒 Seguridad",
+      "desc": "Verificación, PIN y control de sesiones para proteger tu cuenta."
+    },
+    "simplicity": {
+      "title": "⚡ Simplicidad",
+      "desc": "Interfaz clara y mínima para acciones rápidas y confiables."
+    },
+    "trust": {
+      "title": "🤝 Confianza",
+      "desc": "Transparencia y control total de tus datos personales."
+    }
+  },
+  "cta": {
+    "title": "¿Listo para comenzar?",
+    "subtitle": "Únete a {brand} y da el primer paso hacia una experiencia más segura.",
+    "button": "Descargar app"
+  }
+}
