@@ -16,11 +16,22 @@ export default function LocaleSwitcher({ locale }: { locale: Locale }) {
   const pathname = usePathname() || "/";
   const detailsRef = useRef<HTMLDetailsElement>(null);
 
-  // Reescribe el prefijo de locale al inicio de la ruta (o lo inserta si no existe)
+  // Reescribe o inserta el segmento de locale en cualquier estructura, con o sin basePath.
   const getHref = (code: Locale) => {
-    // Coincide opcionalmente con /es o /en al inicio (o nada, p.ej. "/")
-    // y lo reemplaza por `/${code}`.
-    return pathname.replace(/^(?:\/(?:es|en))?(?=\/|$)/, `/${code}`);
+    const parts = pathname.split("/"); // p.ej. ["", "repo", "es", "privacy"]
+    const idx = parts.findIndex((p) => p === "es" || p === "en");
+    if (idx >= 0) {
+      parts[idx] = code; // reemplaza /es|/en por /code
+    } else {
+      // Inserta el locale después del primer segmento real si existe (soporta basePath),
+      // si no, lo inserta en la raíz.
+      const insertPos =
+        parts.length > 1 && parts[1] && parts[1] !== "es" && parts[1] !== "en"
+          ? 2
+          : 1;
+      parts.splice(insertPos, 0, code);
+    }
+    return parts.join("/") || `/${code}`;
   };
 
   return (
@@ -29,7 +40,6 @@ export default function LocaleSwitcher({ locale }: { locale: Locale }) {
         <summary className="list-none px-3 py-1 rounded-lg border border-rk-gold text-rk-gold hover:bg-rk-gold hover:text-black cursor-pointer select-none">
           {locales.find((l) => l.code === locale)?.label ?? locale.toUpperCase()}
         </summary>
-
         <ul className="absolute mt-2 w-40 rounded-lg border border-rk-gold bg-black shadow-lg z-10">
           {locales.map((l) => (
             <li key={l.code}>
