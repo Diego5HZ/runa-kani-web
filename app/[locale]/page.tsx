@@ -2,12 +2,11 @@
 export const dynamic = 'force-static';
 
 import Image from "next/image";
-import {getTranslations} from "next-intl/server";   // 👈 server API
-
+import {getTranslations} from "next-intl/server";  // 👈 server API
 import rkLogin from "@/public/images/RK_LoginPage.png";
 
 export default async function HomePage() {
-  const t = await getTranslations(); // usa el locale fijado en el layout con setRequestLocale()
+  const t = await getTranslations(); // usa el locale fijado en el layout
 
   return (
     <main>
