@@ -1,12 +1,12 @@
-// components/Navbar.tsx
 "use client";
 
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-// ⬇️ antes: import LanguageSwitcher from "../components/LocaleSwitcher";
-import LocaleSwitcher from "./LocaleSwitcher"; // o "@/components/LocaleSwitcher"
+import LocaleSwitcher from "./LocaleSwitcher";
 
+// 👇 import estático del logo
+import rkLogo from "@/public/rk-logo.png";
 
 type Locale = "es" | "en";
 
@@ -23,7 +23,7 @@ export default function Navbar({ locale }: NavbarProps) {
         {/* Logo + Name */}
         <Link href={`/${locale}`} className="flex items-center gap-3">
           <Image
-            src="/rk-logo.png"
+            src={rkLogo}          // 👈 aquí usamos el import
             alt="Runa Kani"
             width={32}
             height={32}

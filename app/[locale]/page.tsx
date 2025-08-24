@@ -4,6 +4,9 @@ export const dynamic = 'force-static';
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
+// 👇 import estático desde public/images
+import rkLogin from "@/public/images/RK_LoginPage.png";
+
 export default function HomePage() {
   const t = useTranslations();
 
@@ -36,7 +39,7 @@ export default function HomePage() {
 
         <div className="rounded-3xl border border-rk-gold/25 bg-rk-gray-dark aspect-[4/3] shadow-[0_0_0_1px_rgba(212,175,55,0.05)] flex items-center justify-center p-6">
           <Image
-            src="/images/RK_LoginPage.png"
+            src={rkLogin} // 👈 usamos el import estático
             alt="Runa Kani login"
             width={280}
             height={560}
