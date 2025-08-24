@@ -27,5 +27,27 @@
     "title": "¿Listo para comenzar?",
     "subtitle": "Únete a {brand} y da el primer paso hacia una experiencia más segura.",
     "button": "Descargar app"
+  },
+  
+  "privacy": {
+    "title": "Política de Privacidad",
+    "intro": "En Runa Kani valoramos tu privacidad. Esta política explica cómo recopilamos, usamos y protegemos tu información.",
+    "collectTitle": "Información que recopilamos",
+    "collectText": "Podemos recopilar datos como correo electrónico y datos de acceso para garantizar seguridad.",
+    "useTitle": "Uso de la información",
+    "useText": "Usamos los datos exclusivamente para mejorar la seguridad de tu experiencia.",
+    "rightsTitle": "Tus derechos",
+    "rightsText": "Puedes acceder, modificar o eliminar tus datos en cualquier momento."
+  },
+  "terms": {
+    "title": "Términos y Condiciones",
+    "intro": "Estos términos rigen el uso de Runa Kani.",
+    "useTitle": "Uso del servicio",
+    "useText": "Debes usar el servicio conforme a la ley y estas condiciones.",
+    "accountTitle": "Cuenta",
+    "accountText": "Eres responsable de la confidencialidad de tus credenciales.",
+    "liabilityTitle": "Limitación de responsabilidad",
+    "liabilityText": "Runa Kani no será responsable por daños indirectos o incidentales."
   }
 }
+
