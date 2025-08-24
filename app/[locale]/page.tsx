@@ -2,13 +2,12 @@
 export const dynamic = 'force-static';
 
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import {getTranslations} from "next-intl/server";   // 👈 server API
 
-// 👇 import estático desde public/images
 import rkLogin from "@/public/images/RK_LoginPage.png";
 
-export default function HomePage() {
-  const t = useTranslations();
+export default async function HomePage() {
+  const t = await getTranslations(); // usa el locale fijado en el layout con setRequestLocale()
 
   return (
     <main>
@@ -39,7 +38,7 @@ export default function HomePage() {
 
         <div className="rounded-3xl border border-rk-gold/25 bg-rk-gray-dark aspect-[4/3] shadow-[0_0_0_1px_rgba(212,175,55,0.05)] flex items-center justify-center p-6">
           <Image
-            src={rkLogin} // 👈 usamos el import estático
+            src={rkLogin}
             alt="Runa Kani login"
             width={280}
             height={560}
