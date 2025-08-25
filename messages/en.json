@@ -28,26 +28,34 @@
     "subtitle": "Join {brand} and take the first step towards a safer experience.",
     "button": "Download app"
   },
-  
+
   "privacy": {
     "title": "Privacy Policy",
-    "intro": "At Runa Kani we value your privacy. This policy explains how we collect, use and protect your information.",
+    "intro": "At Runa Kani, we value your privacy. This policy explains what we collect, why we collect it, and your rights under the EU GDPR and Peru’s Law No. 29733.",
     "collectTitle": "Information we collect",
-    "collectText": "We may collect data such as email and access details to ensure security.",
-    "useTitle": "Use of information",
-    "useText": "Data is used exclusively to enhance the security of your experience within Runa Kani.",
+    "collectText": "We collect: (a) name/username and email to create and manage your account; (b) minimal session data to keep your access secure (authentication and single‑session control); (c) geolocation coordinates only in emergency scenarios you initiate. We do not access Contacts, Camera, or Photo Gallery. Your PIN is stored locally on your device (not sent to our servers). We do not use Google Maps APIs.",
+    "useTitle": "How we use information",
+    "useText": "We use your data to: (a) provide secure access; (b) process reports, including sending emergency coordinates when applicable; (c) send transactional/administrative emails (e.g., verification, security alerts). We do not sell your data.",
     "rightsTitle": "Your rights",
-    "rightsText": "You have the right to access, modify or delete your data at any time."
+    "rightsText": "You may request access, rectification, erasure, objection, or restriction, and withdraw consent. To exercise your rights, contact us at {contactEmail}. Data is hosted on Firebase/Google Cloud with international transfers under adequate safeguards. We retain data only as long as needed to provide the service and meet legal obligations.",
+    "toc": "Contents",
+    "updatedOn": "Last updated:",
+    "contactTitle": "Contact",
+    "contactText": "If you wish to exercise your rights or have questions about this policy, contact us.",
+    "contactEmailLabel": "Email:",
+    "contactEmail": "{contactEmail}"
   },
+
   "terms": {
     "title": "Terms and Conditions",
-    "intro": "These terms govern the use of Runa Kani.",
+    "intro": "These terms govern your use of Runa Kani. By using the app, you agree to these terms.",
     "useTitle": "Use of the service",
-    "useText": "You must use the service in compliance with the law and these conditions.",
+    "useText": "You agree to use the app in compliance with the law and these terms. Geolocation is requested and used only for emergency scenarios you initiate. We do not use Google Maps APIs to send coordinates.",
     "accountTitle": "Account",
-    "accountText": "You are responsible for keeping your credentials confidential.",
+    "accountText": "You are responsible for keeping your credentials confidential. We may send transactional emails (e.g., verification, security alerts). We implement single‑session control and secure local storage of the PIN.",
     "liabilityTitle": "Limitation of liability",
-    "liabilityText": "Runa Kani shall not be liable for indirect or incidental damages."
+    "liabilityText": "The service is provided “as is.” We do not guarantee uninterrupted availability. We are not liable for indirect or consequential damages. Latvian (EU) law applies, and for users in Peru, Law No. 29733 also applies. Where legal frameworks conflict, the most protective provision for the user shall prevail.",
+    "toc": "Contents",
+    "updatedOn": "Last updated:"
   }
 }
-

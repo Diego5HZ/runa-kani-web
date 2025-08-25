@@ -12,7 +12,7 @@
   "features": {
     "security": {
       "title": "🔒 Seguridad",
-      "desc": "Verificación, PIN y control de sesiones para proteger tu cuenta."
+      "desc": "Verificación, PIN y control de sesión para proteger tu cuenta."
     },
     "simplicity": {
       "title": "⚡ Simplicidad",
@@ -24,30 +24,38 @@
     }
   },
   "cta": {
-    "title": "¿Listo para comenzar?",
+    "title": "¿Listo para empezar?",
     "subtitle": "Únete a {brand} y da el primer paso hacia una experiencia más segura.",
     "button": "Descargar app"
   },
-  
+
   "privacy": {
     "title": "Política de Privacidad",
-    "intro": "En Runa Kani valoramos tu privacidad. Esta política explica cómo recopilamos, usamos y protegemos tu información.",
+    "intro": "En Runa Kani valoramos tu privacidad. Esta política explica qué datos recopilamos, con qué finalidad y qué derechos tienes conforme al GDPR (UE) y la Ley N° 29733 (Perú).",
     "collectTitle": "Información que recopilamos",
-    "collectText": "Podemos recopilar datos como correo electrónico y datos de acceso para garantizar seguridad.",
+    "collectText": "Recopilamos: (a) nombre/username y correo electrónico para crear y gestionar tu cuenta; (b) datos mínimos de sesión para mantener tu acceso seguro (autenticación y control de sesión única); (c) coordenadas de geolocalización solo en escenarios de emergencia que tú inicias. No accedemos a Contactos, Cámara ni Galería. El PIN se guarda localmente en tu dispositivo (no se envía a nuestros servidores). No usamos Google Maps APIs.",
     "useTitle": "Uso de la información",
-    "useText": "Usamos los datos exclusivamente para mejorar la seguridad de tu experiencia.",
+    "useText": "Usamos tus datos para: (a) permitir tu acceso seguro; (b) procesar reportes, incluyendo el envío de coordenadas de emergencia cuando proceda; (c) enviarte correos transaccionales o administrativos (p. ej., verificación, alertas de seguridad). No vendemos tus datos.",
     "rightsTitle": "Tus derechos",
-    "rightsText": "Puedes acceder, modificar o eliminar tus datos en cualquier momento."
+    "rightsText": "Puedes solicitar acceso, rectificación, eliminación, oposición o limitación del tratamiento, así como retirar tu consentimiento. Para ejercer tus derechos, contáctanos en {contactEmail}. Los datos se alojan en servicios de Firebase/Google Cloud con transferencias internacionales bajo garantías adecuadas. Conservamos la información el tiempo necesario para prestar el servicio y cumplir obligaciones legales.",
+    "toc": "Contenido",
+    "updatedOn": "Última actualización:",
+    "contactTitle": "Contacto",
+    "contactText": "Si deseas ejercer tus derechos o tienes dudas sobre esta política, contáctanos.",
+    "contactEmailLabel": "Email:",
+    "contactEmail": "{contactEmail}"
   },
+
   "terms": {
     "title": "Términos y Condiciones",
-    "intro": "Estos términos rigen el uso de Runa Kani.",
+    "intro": "Estos términos regulan el uso de Runa Kani. Al utilizar la app aceptas estas condiciones.",
     "useTitle": "Uso del servicio",
-    "useText": "Debes usar el servicio conforme a la ley y estas condiciones.",
+    "useText": "Te comprometes a usar la app conforme a la ley y a estos términos. La geolocalización solo se solicita y usa en escenarios de emergencia que tú inicias. No usamos Google Maps APIs para enviar coordenadas.",
     "accountTitle": "Cuenta",
-    "accountText": "Eres responsable de la confidencialidad de tus credenciales.",
+    "accountText": "Debes mantener la confidencialidad de tus credenciales. Podemos enviarte correos transaccionales (p. ej., verificación, alertas de seguridad). Implementamos control de sesión única y almacenamiento local seguro del PIN.",
     "liabilityTitle": "Limitación de responsabilidad",
-    "liabilityText": "Runa Kani no será responsable por daños indirectos o incidentales."
+    "liabilityText": "El servicio se ofrece \"tal cual\". No garantizamos disponibilidad ininterrumpida. No nos hacemos responsables por daños indirectos o derivados. Se aplica la legislación de Letonia (UE) y, para usuarios en Perú, también la Ley N° 29733. En caso de conflicto normativo, se aplicará la disposición más protectora para el usuario.",
+    "toc": "Contenido",
+    "updatedOn": "Última actualización:"
   }
 }
-
