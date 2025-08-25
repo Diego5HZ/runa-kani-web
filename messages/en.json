@@ -37,7 +37,7 @@
     "useTitle": "How we use information",
     "useText": "We use your data to: (a) provide secure access; (b) process reports, including sending emergency coordinates when applicable; (c) send transactional/administrative emails (e.g., verification, security alerts). We do not sell your data.",
     "rightsTitle": "Your rights",
-    "rightsText": "You may request access, rectification, erasure, objection, or restriction, and withdraw consent. To exercise your rights, contact us at {contactEmail}. Data is hosted on Firebase/Google Cloud with international transfers under adequate safeguards. We retain data only as long as needed to provide the service and meet legal obligations.",
+    "rightsText": "You may request access, rectification, erasure, objection, or restriction, and withdraw consent. To exercise your rights, contact us at safairus@gmail.com. Data is hosted on Firebase/Google Cloud with international transfers under adequate safeguards. We retain data only as long as needed to provide the service and meet legal obligations.",
     "toc": "Contents",
     "updatedOn": "Last updated:",
     "contactTitle": "Contact",
@@ -45,7 +45,7 @@
     "contactEmailLabel": "Email:",
     "contactEmail": "safairus@gmail.com",
     "controllerTitle": "Data Controller",
-    "controllerText": "The Runa Kani application is operated by Diego Henríquez, individual developer, based in Riga, Latvia. For any inquiries regarding your personal data, please contact us at {contactEmail}."
+    "controllerText": "The Runa Kani application is operated by Diego Henríquez, individual developer, based in Riga, Latvia. For any inquiries regarding your personal data, please contact us at safairus@gmail.com."
 
   },
 

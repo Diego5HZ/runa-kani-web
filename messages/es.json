@@ -37,7 +37,7 @@
     "useTitle": "Uso de la información",
     "useText": "Usamos tus datos para: (a) permitir tu acceso seguro; (b) procesar reportes, incluyendo el envío de coordenadas de emergencia cuando proceda; (c) enviarte correos transaccionales o administrativos (p. ej., verificación, alertas de seguridad). No vendemos tus datos.",
     "rightsTitle": "Tus derechos",
-    "rightsText": "Puedes solicitar acceso, rectificación, eliminación, oposición o limitación del tratamiento, así como retirar tu consentimiento. Para ejercer tus derechos, contáctanos en {contactEmail}. Los datos se alojan en servicios de Firebase/Google Cloud con transferencias internacionales bajo garantías adecuadas. Conservamos la información el tiempo necesario para prestar el servicio y cumplir obligaciones legales.",
+    "rightsText": "Puedes solicitar acceso, rectificación, eliminación, oposición o limitación del tratamiento, así como retirar tu consentimiento. Para ejercer tus derechos, contáctanos en safairus@gmail.com. Los datos se alojan en servicios de Firebase/Google Cloud con transferencias internacionales bajo garantías adecuadas. Conservamos la información el tiempo necesario para prestar el servicio y cumplir obligaciones legales.",
     "toc": "Contenido",
     "updatedOn": "Última actualización:",
     "contactTitle": "Contacto",
@@ -45,7 +45,7 @@
     "contactEmailLabel": "Email:",
     "contactEmail": "safairus@gmail.com",
     "controllerTitle": "Responsable del tratamiento",
-    "controllerText": "La aplicación Runa Kani es operada por Diego Henríquez, persona natural, con domicilio en Riga, Letonia. Para cualquier consulta sobre tus datos personales, escríbenos a {contactEmail}."
+    "controllerText": "La aplicación Runa Kani es operada por Diego Henríquez, persona natural, con domicilio en Riga, Letonia. Para cualquier consulta sobre tus datos personales, escríbenos a safairus@gmail.com."
   },
 
   "terms": {
