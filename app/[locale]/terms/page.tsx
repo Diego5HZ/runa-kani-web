@@ -18,7 +18,8 @@ export default async function TermsPage({
   const sections = [
     { id: "use", title: t("useTitle") },
     { id: "account", title: t("accountTitle") },
-    { id: "liability", title: t("liabilityTitle") }
+    { id: "liability", title: t("liabilityTitle") },
+    { id: "controller", title: t("controllerTitle") }
   ];
 
   return (
