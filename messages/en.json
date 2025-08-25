@@ -43,7 +43,7 @@
     "contactTitle": "Contact",
     "contactText": "If you wish to exercise your rights or have questions about this policy, contact us.",
     "contactEmailLabel": "Email:",
-    "contactEmail": "{contactEmail}"
+    "contactEmail": "safairus@gmail.com"
   },
 
   "terms": {
@@ -57,5 +57,9 @@
     "liabilityText": "The service is provided “as is.” We do not guarantee uninterrupted availability. We are not liable for indirect or consequential damages. Latvian (EU) law applies, and for users in Peru, Law No. 29733 also applies. Where legal frameworks conflict, the most protective provision for the user shall prevail.",
     "toc": "Contents",
     "updatedOn": "Last updated:"
-  }
+  },
+
+  "controllerTitle": "Data Controller",
+  "controllerText": "The Runa Kani application is operated by Diego Henríquez, individual developer, based in Riga, Latvia. For any inquiries regarding your personal data, please contact us at {contactEmail}."
+
 }

@@ -43,7 +43,7 @@
     "contactTitle": "Contacto",
     "contactText": "Si deseas ejercer tus derechos o tienes dudas sobre esta política, contáctanos.",
     "contactEmailLabel": "Email:",
-    "contactEmail": "{contactEmail}"
+    "contactEmail": "safairus@gmail.com"
   },
 
   "terms": {
@@ -57,5 +57,9 @@
     "liabilityText": "El servicio se ofrece \"tal cual\". No garantizamos disponibilidad ininterrumpida. No nos hacemos responsables por daños indirectos o derivados. Se aplica la legislación de Letonia (UE) y, para usuarios en Perú, también la Ley N° 29733. En caso de conflicto normativo, se aplicará la disposición más protectora para el usuario.",
     "toc": "Contenido",
     "updatedOn": "Última actualización:"
-  }
+  },
+
+  "controllerTitle": "Responsable del tratamiento",
+  "controllerText": "La aplicación Runa Kani es operada por Diego Henríquez, persona natural, con domicilio en Riga, Letonia. Para cualquier consulta sobre tus datos personales, escríbenos a {contactEmail}."
+
 }

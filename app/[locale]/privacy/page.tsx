@@ -84,6 +84,12 @@ export default async function PrivacyPage({
           </a>
         </p>
       </section>
+
+      <section id="controller" className="prose prose-invert prose-zinc max-w-none mt-10">
+        <h2>{t("controllerTitle")}</h2>
+        <p>{t("controllerText")}</p>
+      </section>
+
     </article>
   );
 }
