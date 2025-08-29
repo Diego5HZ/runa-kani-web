@@ -13,7 +13,7 @@ export default async function AccountDeletionPage({
 
   // FAQ: lee índices 0..N si existen
   const faq: { q: string; a: string }[] = [];
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 4; i++) {
     const qKey = `faq.${i}.q`;
     const aKey = `faq.${i}.a`;
     try {
