@@ -44,15 +44,32 @@ export default async function AccountDeletionPage({
           <li>{t("step3")}</li>
         </ol>
 
-        <div className="mt-6 rounded-2xl border border-rk-gold/20 bg-black/20 p-4 flex justify-center">
-          <Image
-            src={rkDelete}
-            alt={t("stepImageAlt")}
-            width={280}
-            height={560}
-            className="rounded-xl shadow-lg"
-            priority
-          />
+        {/* Recuadro con ambas imágenes y flecha, responsive */}
+        <div className="mt-6 rounded-2xl border border-rk-gold/20 bg-black/20 p-4 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
+            {/* Imagen Delete Account */}
+            <Image
+                src={rkDelete}
+                alt={t("stepImageAlt")}
+                width={280}
+                height={560}
+                sizes="(max-width: 768px) 220px, 280px"
+                className="rounded-xl shadow-lg"
+                priority
+            />
+
+            {/* Flecha vertical en móvil / horizontal en desktop */}
+            <span className="text-rk-gold text-3xl md:text-4xl font-bold md:hidden">↓</span>
+            <span className="text-rk-gold text-3xl md:text-4xl font-bold hidden md:inline">➜</span>
+
+            {/* Imagen Help Center */}
+            <Image
+                src={rkHelp}
+                alt={t("helpCenterImageAlt")}
+                width={280}
+                height={560}
+                sizes="(max-width: 768px) 220px, 280px"
+                className="rounded-xl shadow-lg"
+            />
         </div>
       </section>
 
@@ -71,16 +88,6 @@ export default async function AccountDeletionPage({
             {t("startOnlineEmail")}
           </a>
         </p>
-
-        <div className="mt-4 rounded-2xl border border-rk-gold/20 bg-black/20 p-4 flex justify-center">
-          <Image
-            src={rkHelp}
-            alt={t("helpCenterImageAlt")}
-            width={280}
-            height={560}
-            className="rounded-xl shadow-lg"
-          />
-        </div>
       </section>
 
       {/* Alcance */}
