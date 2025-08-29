@@ -29,15 +29,38 @@
     "button": "Descargar app"
   },
 
-  "privacy": {
+"privacy": {
     "title": "Política de Privacidad",
     "intro": "En Runa Kani valoramos tu privacidad. Esta política explica qué datos recopilamos, con qué finalidad y qué derechos tienes conforme al GDPR (UE) y la Ley N° 29733 (Perú).",
     "collectTitle": "Información que recopilamos",
-    "collectText": "Recopilamos: (a) nombre/username y correo electrónico para crear y gestionar tu cuenta; (b) datos mínimos de sesión para mantener tu acceso seguro (autenticación y control de sesión única); (c) coordenadas de geolocalización solo en escenarios de emergencia que tú inicias. No accedemos a Contactos, Cámara ni Galería. El PIN se guarda localmente en tu dispositivo (no se envía a nuestros servidores). No usamos Google Maps APIs.",
+    "collectText": "Recopilamos: (a) nombre/username y correo electrónico para crear y gestionar tu cuenta; (b) datos mínimos de sesión para mantener tu acceso seguro (autenticación y control de sesión única, incluyendo identificadores de dispositivo y tokens); (c) coordenadas de geolocalización únicamente cuando tú inicias una alerta de emergencia, con el fin de incluirlas en el reporte. No accedemos a Contactos, Cámara ni Galería. El PIN se guarda localmente en tu dispositivo (no se envía a nuestros servidores). No usamos Google Maps APIs.",
+    
     "useTitle": "Uso de la información",
-    "useText": "Usamos tus datos para: (a) permitir tu acceso seguro; (b) procesar reportes, incluyendo el envío de coordenadas de emergencia cuando proceda; (c) enviarte correos transaccionales o administrativos (p. ej., verificación, alertas de seguridad). No vendemos tus datos.",
+    "useText": "Usamos tus datos para: (a) permitir el acceso seguro; (b) procesar reportes, incluyendo el envío de coordenadas de emergencia cuando proceda; (c) enviarte correos transaccionales o administrativos (por ejemplo, verificación y alertas de seguridad); (d) prevenir abuso y fraude (controles de sesión y registros técnicos). No vendemos tus datos.",
+    
+    "providersTitle": "Proveedores y compartición",
+    "providersText": "Compartimos datos únicamente con proveedores que actúan como encargados del tratamiento para operar la app, siguiendo nuestras instrucciones y la normativa aplicable. En particular, utilizamos Google Firebase (Authentication para gestión de cuentas; Firestore/Storage para almacenamiento; Cloud Functions para lógica de backend). No vendemos tus datos ni los compartimos con fines publicitarios.",
+    
+    "securityTitle": "Seguridad de la información",
+    "securityText": "Protegemos tus datos aplicando cifrado en tránsito (HTTPS/TLS), controles de acceso con privilegios mínimos y registros de actividad. Limitamos el acceso a personal autorizado y revisamos periódicamente nuestras medidas de seguridad. Aplicamos minimización de datos y retención limitada.",
+    
+    "retentionTitle": "Conservación y eliminación",
+    "retentionText": "Conservamos los datos únicamente el tiempo necesario para prestar el servicio y cumplir obligaciones legales. Como referencia: (a) los reportes de incidencias se conservan como máximo 12 meses; (b) al eliminar tu cuenta, borramos los datos asociados en un plazo máximo de 30 días, salvo que debamos conservar cierta información por motivos legales, de seguridad o prevención de fraude. Informaremos claramente las excepciones cuando apliquen.",
+    
+    "deletionTitle": "Eliminación de cuenta y datos",
+    "deletionText": "Puedes eliminar tu cuenta en cualquier momento desde la app (Ajustes → Centro de ayuda → Mi cuenta → Eliminar cuenta y datos). También puedes iniciar la solicitud desde la web en {accountDeletionUrl}. Al eliminar tu cuenta, iniciaremos el borrado en ≤30 días según se indica en la sección de conservación.",
+    "@deletionText": {
+      "placeholders": {
+        "accountDeletionUrl": { "type": "String" }
+      }
+    },
+
+    "locationDisclosureTitle": "Divulgación destacada (ubicación de emergencia)",
+    "locationDisclosureText": "Runa Kani recopila tu ubicación únicamente cuando tú inicias una alerta de emergencia para incluir las coordenadas en el reporte. No accedemos a tu ubicación en segundo plano ni fuera de ese escenario. Puedes denegar el permiso en cualquier momento desde los ajustes del sistema.",
+
     "rightsTitle": "Tus derechos",
-    "rightsText": "Puedes solicitar acceso, rectificación, eliminación, oposición o limitación del tratamiento, así como retirar tu consentimiento. Para ejercer tus derechos, contáctanos en safairus@gmail.com. Los datos se alojan en servicios de Firebase/Google Cloud con transferencias internacionales bajo garantías adecuadas. Conservamos la información el tiempo necesario para prestar el servicio y cumplir obligaciones legales.",
+    "rightsText": "Puedes solicitar acceso, rectificación, eliminación, oposición o limitación del tratamiento, así como retirar tu consentimiento. Para ejercer tus derechos, contáctanos en safairus@gmail.com. Los datos se alojan en servicios de Firebase/Google Cloud con transferencias internacionales bajo garantías adecuadas.",
+    
     "toc": "Contenido",
     "updatedOn": "Última actualización:",
     "contactTitle": "Contacto",
@@ -45,7 +68,11 @@
     "contactEmailLabel": "Email:",
     "contactEmail": "safairus@gmail.com",
     "controllerTitle": "Responsable del tratamiento",
-    "controllerText": "La aplicación Runa Kani es operada por Diego Henríquez, persona natural, con domicilio en Riga, Letonia. Para cualquier consulta sobre tus datos personales, escríbenos a safairus@gmail.com."
+    "controllerText": "La aplicación Runa Kani es operada por Diego Henríquez, persona natural, con domicilio en Riga, Letonia. Para cualquier consulta sobre tus datos personales, escríbenos a safairus@gmail.com",
+
+    "ctaDeletionHelpTitle": "¿Quieres eliminar tu cuenta?",
+    "ctaDeletionHelpText": "Puedes hacerlo desde la app o iniciar la solicitud en la web.",
+    "ctaDeletionHelpLink": "Ir a la página de eliminación de cuenta"
   },
 
   "terms": {
@@ -59,6 +86,12 @@
     "liabilityText": "El servicio se ofrece \"tal cual\". No garantizamos disponibilidad ininterrumpida. No nos hacemos responsables por daños indirectos o derivados. Se aplica la legislación de Letonia (UE) y, para usuarios en Perú, también la Ley N° 29733. En caso de conflicto normativo, se aplicará la disposición más protectora para el usuario.",
     "toc": "Contenido",
     "updatedOn": "Última actualización:"
-  }
+  },
 
+  "title": "Eliminación de cuenta y datos",
+  "intro": "Puedes solicitar la eliminación de tu cuenta de Runa Kani en cualquier momento. Sigue estos pasos dentro de la aplicación:",
+  "step1": "Abre Ajustes → Centro de ayuda → Mi cuenta.",
+  "step2": "Selecciona «Eliminar cuenta y datos».",
+  "step3": "Confirma tu contraseña para finalizar el proceso.",
+  "note": "También puedes iniciar la solicitud de eliminación desde esta página web. Los datos asociados se borran en un plazo máximo de 30 días, salvo que debamos conservar cierta información por motivos legales, de seguridad o prevención de fraude."
 }

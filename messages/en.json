@@ -29,24 +29,52 @@
     "button": "Download app"
   },
 
-  "privacy": {
+"privacy": {
     "title": "Privacy Policy",
-    "intro": "At Runa Kani, we value your privacy. This policy explains what we collect, why we collect it, and your rights under the EU GDPR and Peru’s Law No. 29733.",
+    "intro": "At Runa Kani, we value your privacy. This policy explains what data we collect, why we collect it, and your rights under the EU GDPR and Peru’s Law No. 29733.",
+    
     "collectTitle": "Information we collect",
-    "collectText": "We collect: (a) name/username and email to create and manage your account; (b) minimal session data to keep your access secure (authentication and single‑session control); (c) geolocation coordinates only in emergency scenarios you initiate. We do not access Contacts, Camera, or Photo Gallery. Your PIN is stored locally on your device (not sent to our servers). We do not use Google Maps APIs.",
+    "collectText": "We collect: (a) name/username and email to create and manage your account; (b) minimal session data to keep your access secure (authentication, device identifiers, and single-session control); (c) geolocation coordinates only when you initiate an emergency alert, to include them in the report. We do not access Contacts, Camera, or Photo Gallery. Your PIN is stored locally on your device (never sent to our servers). We do not use Google Maps APIs.",
+    
     "useTitle": "How we use information",
-    "useText": "We use your data to: (a) provide secure access; (b) process reports, including sending emergency coordinates when applicable; (c) send transactional/administrative emails (e.g., verification, security alerts). We do not sell your data.",
+    "useText": "We use your data to: (a) provide secure access; (b) process reports, including sending emergency coordinates when applicable; (c) send transactional or administrative emails (e.g., verification, security alerts); (d) prevent abuse and fraud (session controls and technical logs). We do not sell your data.",
+    
+    "providersTitle": "Service providers and sharing",
+    "providersText": "We share data only with service providers acting as data processors to operate the app, under our instructions and in compliance with applicable law. Specifically, we use Google Firebase (Authentication for account management; Firestore/Storage for data storage; Cloud Functions for backend logic). We do not sell your data or share it for advertising purposes.",
+    
+    "securityTitle": "Data security",
+    "securityText": "We protect your data using encryption in transit (HTTPS/TLS), access controls with least-privilege principles, and activity logging. We restrict access to authorized personnel and regularly review our security measures. We apply data minimization and limited retention.",
+    
+    "retentionTitle": "Data retention and deletion",
+    "retentionText": "We keep data only as long as necessary to provide the service and meet legal obligations. For reference: (a) incident reports are retained for a maximum of 12 months; (b) when you delete your account, associated data is deleted within 30 days, unless we must retain certain information for legal, security, or fraud-prevention reasons. Any such exceptions will be clearly communicated.",
+    
+    "deletionTitle": "Account and data deletion",
+    "deletionText": "You can delete your account at any time from the app (Settings → Help Center → My Account → Delete account and data). You can also start the request online at {accountDeletionUrl}. Once you confirm deletion, we will erase associated data within 30 days as described in the retention section.",
+    "@deletionText": {
+      "placeholders": {
+        "accountDeletionUrl": { "type": "String" }
+      }
+    },
+    
+    "locationDisclosureTitle": "Prominent disclosure (emergency location)",
+    "locationDisclosureText": "Runa Kani collects your location only when you initiate an emergency alert, in order to include the coordinates in your report. We do not access your location in the background or outside that scenario. You may deny permission at any time in your system settings.",
+    
     "rightsTitle": "Your rights",
-    "rightsText": "You may request access, rectification, erasure, objection, or restriction, and withdraw consent. To exercise your rights, contact us at safairus@gmail.com. Data is hosted on Firebase/Google Cloud with international transfers under adequate safeguards. We retain data only as long as needed to provide the service and meet legal obligations.",
+    "rightsText": "You may request access, rectification, erasure, objection, restriction of processing, and withdraw consent at any time. To exercise your rights, contact us at safairus@gmail.com. Data is hosted on Firebase/Google Cloud with international transfers under adequate safeguards.",
+    
     "toc": "Contents",
     "updatedOn": "Last updated:",
     "contactTitle": "Contact",
-    "contactText": "If you wish to exercise your rights or have questions about this policy, contact us.",
+    "contactText": "If you wish to exercise your rights or have questions about this policy, please contact us.",
     "contactEmailLabel": "Email:",
     "contactEmail": "safairus@gmail.com",
+    
     "controllerTitle": "Data Controller",
-    "controllerText": "The Runa Kani application is operated by Diego Henríquez, individual developer, based in Riga, Latvia. For any inquiries regarding your personal data, please contact us at safairus@gmail.com."
+    "controllerText": "The Runa Kani application is operated by Diego Henríquez, individual developer, based in Riga, Latvia. For any inquiries regarding your personal data, please contact us at safairus@gmail.com.",
 
+    "ctaDeletionHelpTitle": "Want to delete your account?",
+    "ctaDeletionHelpText": "You can do it directly in the app or start the request online.",
+    "ctaDeletionHelpLink": "Go to the account deletion page"
   },
 
   "terms": {
@@ -60,5 +88,12 @@
     "liabilityText": "The service is provided “as is.” We do not guarantee uninterrupted availability. We are not liable for indirect or consequential damages. Latvian (EU) law applies, and for users in Peru, Law No. 29733 also applies. Where legal frameworks conflict, the most protective provision for the user shall prevail.",
     "toc": "Contents",
     "updatedOn": "Last updated:"
-  }
+  },
+
+  "title": "Account and Data Deletion",
+  "intro": "You can request deletion of your Runa Kani account at any time. Follow these steps in the app:",
+  "step1": "Open Settings → Help Center → My Account.",
+  "step2": "Select “Delete account and data”.",
+  "step3": "Confirm your password to finalize deletion.",
+  "note": "Alternatively, you can request deletion online from this page. Data is erased within 30 days, except where retention is required for legal, security, or fraud-prevention reasons."
 }
