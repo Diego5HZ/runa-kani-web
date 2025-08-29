@@ -94,6 +94,38 @@
     "step1": "Abre Ajustes → Centro de ayuda → Mi cuenta.",
     "step2": "Selecciona «Eliminar cuenta y datos».",
     "step3": "Confirma tu contraseña para finalizar el proceso.",
-    "note": "También puedes iniciar la solicitud desde esta página web. Los datos asociados se borran en un plazo máximo de 30 días, salvo que debamos conservar cierta información por motivos legales, de seguridad o prevención de fraude."
+    "note": "Los datos asociados se borran en un plazo máximo de 30 días, salvo que debamos conservar cierta información por motivos legales, de seguridad o prevención de fraude.",
+
+    "startOnlineTitle": "Solicitar por correo",
+    "startOnlineText": "Si no puedes acceder a la app, también puedes solicitar la eliminación de tu cuenta enviándonos un correo electrónico:",
+    "startOnlineEmail": "safairus@gmail.com",
+
+    "scopeTitle": "Qué se elimina",
+    "scopeText": "Eliminamos tu cuenta y los datos asociados (perfil, sesiones activas, reportes y metadatos ligados a tu cuenta). Podemos conservar información mínima si es necesaria para cumplir obligaciones legales, de seguridad o prevención de fraude.",
+
+    "statusTitle": "Estado de tu solicitud",
+    "statusText": "Una vez confirmada la eliminación, procesaremos el borrado dentro de 30 días. Podrás recibir confirmación por correo electrónico.",
+
+    "verificationNote": "Por seguridad, es posible que te pidamos verificar tu identidad antes de completar la eliminación.",
+
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿Puedo cancelar la eliminación?",
+        "a": "Mientras el borrado no se haya completado, puedes contactarnos a la brevedad para intentar detener el proceso. No siempre es posible revertirlo si ya comenzó."
+      },
+      {
+        "q": "¿Qué sucede con mis reportes?",
+        "a": "Los reportes asociados a tu cuenta se eliminan con ella. Si alguna parte debe conservarse por obligación legal, te lo indicaremos."
+      },
+      {
+        "q": "¿Cuánto tarda?",
+        "a": "Hasta 30 días desde tu confirmación. En casos excepcionales (p. ej., requisitos legales), puede demorar más; te informaremos."
+      },
+      {
+        "q": "¿Esto afecta los permisos de ubicación?",
+        "a": "Al eliminar la cuenta, ya no procesaremos datos de tu cuenta. Recuerda que puedes revocar permisos de la app desde los ajustes del sistema."
+      }
+    ]
   }
 }

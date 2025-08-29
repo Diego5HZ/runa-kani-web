@@ -90,12 +90,44 @@
     "updatedOn": "Last updated:"
   },
 
- "accountDeletion": {
+  "accountDeletion": {
     "title": "Account and Data Deletion",
-    "intro": "You can request deletion of your Runa Kani account at any time. Follow these steps in the app:",
+    "intro": "You can request the deletion of your Runa Kani account at any time. Follow these steps inside the app:",
     "step1": "Open Settings → Help Center → My Account.",
     "step2": "Select “Delete account and data”.",
-    "step3": "Confirm your password to complete the process.",
-    "note": "You can also start the deletion request from this web page. Associated data is deleted within 30 days, except where retention is required for legal, security, or fraud-prevention reasons."
+    "step3": "Confirm your password to finalize the process.",
+    "note": "Associated data is deleted within a maximum of 30 days, unless we must retain certain information for legal, security, or fraud-prevention reasons.",
+
+    "startOnlineTitle": "Request by email",
+    "startOnlineText": "If you cannot access the app, you can also request deletion of your account by sending us an email at:",
+    "startOnlineEmail": "safairus@gmail.com",
+
+    "scopeTitle": "What gets deleted",
+    "scopeText": "We delete your account and associated data (profile, active sessions, reports, and metadata linked to your account). We may retain minimal information if required to comply with legal, security, or fraud-prevention obligations.",
+
+    "statusTitle": "Request status",
+    "statusText": "Once the deletion is confirmed, we will process the removal within 30 days. You may receive confirmation by email.",
+
+    "verificationNote": "For security reasons, we may ask you to verify your identity before completing the deletion.",
+
+    "faqTitle": "Frequently Asked Questions",
+    "faq": [
+      {
+        "q": "Can I cancel the deletion?",
+        "a": "As long as the deletion has not been completed, you can contact us as soon as possible to try to stop the process. It may not always be possible to reverse it if it has already started."
+      },
+      {
+        "q": "What happens to my reports?",
+        "a": "Reports associated with your account are deleted together with it. If some part must be retained for legal reasons, we will inform you."
+      },
+      {
+        "q": "How long does it take?",
+        "a": "Up to 30 days from your confirmation. In exceptional cases (e.g., legal requirements), it may take longer; we will inform you."
+      },
+      {
+        "q": "Does this affect location permissions?",
+        "a": "Once your account is deleted, we will no longer process your account’s data. Remember you can revoke the app’s permissions at any time from your device settings."
+      }
+    ]
   }
 }
