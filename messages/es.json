@@ -88,10 +88,12 @@
     "updatedOn": "Última actualización:"
   },
 
-  "title": "Eliminación de cuenta y datos",
-  "intro": "Puedes solicitar la eliminación de tu cuenta de Runa Kani en cualquier momento. Sigue estos pasos dentro de la aplicación:",
-  "step1": "Abre Ajustes → Centro de ayuda → Mi cuenta.",
-  "step2": "Selecciona «Eliminar cuenta y datos».",
-  "step3": "Confirma tu contraseña para finalizar el proceso.",
-  "note": "También puedes iniciar la solicitud de eliminación desde esta página web. Los datos asociados se borran en un plazo máximo de 30 días, salvo que debamos conservar cierta información por motivos legales, de seguridad o prevención de fraude."
+  "accountDeletion": {
+    "title": "Eliminación de cuenta y datos",
+    "intro": "Puedes solicitar la eliminación de tu cuenta de Runa Kani en cualquier momento. Sigue estos pasos dentro de la aplicación:",
+    "step1": "Abre Ajustes → Centro de ayuda → Mi cuenta.",
+    "step2": "Selecciona «Eliminar cuenta y datos».",
+    "step3": "Confirma tu contraseña para finalizar el proceso.",
+    "note": "También puedes iniciar la solicitud desde esta página web. Los datos asociados se borran en un plazo máximo de 30 días, salvo que debamos conservar cierta información por motivos legales, de seguridad o prevención de fraude."
+  }
 }

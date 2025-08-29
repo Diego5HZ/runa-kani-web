@@ -90,10 +90,12 @@
     "updatedOn": "Last updated:"
   },
 
-  "title": "Account and Data Deletion",
-  "intro": "You can request deletion of your Runa Kani account at any time. Follow these steps in the app:",
-  "step1": "Open Settings → Help Center → My Account.",
-  "step2": "Select “Delete account and data”.",
-  "step3": "Confirm your password to finalize deletion.",
-  "note": "Alternatively, you can request deletion online from this page. Data is erased within 30 days, except where retention is required for legal, security, or fraud-prevention reasons."
+ "accountDeletion": {
+    "title": "Account and Data Deletion",
+    "intro": "You can request deletion of your Runa Kani account at any time. Follow these steps in the app:",
+    "step1": "Open Settings → Help Center → My Account.",
+    "step2": "Select “Delete account and data”.",
+    "step3": "Confirm your password to complete the process.",
+    "note": "You can also start the deletion request from this web page. Associated data is deleted within 30 days, except where retention is required for legal, security, or fraud-prevention reasons."
+  }
 }
