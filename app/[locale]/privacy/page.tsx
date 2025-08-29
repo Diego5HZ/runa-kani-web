@@ -54,7 +54,7 @@ export default async function PrivacyPage({
 
       {/* TOC retraíble */}
       <aside aria-label={t("toc")} className="mb-8 rounded-2xl border border-rk-gold/20 bg-black/30 p-4">
-        <details open>
+        <details>
           <summary className="text-sm font-medium cursor-pointer select-none list-none">
             {t("toc")}
           </summary>
