@@ -3,8 +3,10 @@ export const dynamic = 'force-static';
 
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
-import RK_Delete_Account_Page from "@/public/images/RK_Delete_Account_Page.png";
-import RK_Help_Center_Page from "@/public/images/RK_Help_Center_Page.png";
+
+// 👇 importa igual que el RK_LoginPage
+import rkDelete from "@/public/images/RK_Delete_Account_Page.jpeg";
+import rkHelp from "@/public/images/RK_Help_Center_Page.jpeg";
 
 export default async function AccountDeletionPage({
   params
@@ -14,7 +16,7 @@ export default async function AccountDeletionPage({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "accountDeletion" });
 
-  // FAQ: lee índices 0..N si existen
+  // FAQ
   const faq: { q: string; a: string }[] = [];
   for (let i = 0; i < 4; i++) {
     const qKey = `faq.${i}.q`;
@@ -42,12 +44,13 @@ export default async function AccountDeletionPage({
           <li>{t("step3")}</li>
         </ol>
 
-        {/* Imagen de referencia: pantalla Delete Account */}
-        <div className="mt-6 border border-rk-gold/20 rounded-xl overflow-hidden">
+        <div className="mt-6 rounded-2xl border border-rk-gold/20 bg-black/20 p-4 flex justify-center">
           <Image
-            src={RK_Delete_Account_Page}
+            src={rkDelete}
             alt={t("stepImageAlt")}
-            className="w-full h-auto"
+            width={280}
+            height={560}
+            className="rounded-xl shadow-lg"
             priority
           />
         </div>
@@ -69,24 +72,25 @@ export default async function AccountDeletionPage({
           </a>
         </p>
 
-        {/* Imagen de referencia: Help Center */}
-        <div className="mt-4 border border-rk-gold/20 rounded-xl overflow-hidden">
+        <div className="mt-4 rounded-2xl border border-rk-gold/20 bg-black/20 p-4 flex justify-center">
           <Image
-            src={RK_Help_Center_Page}
+            src={rkHelp}
             alt={t("helpCenterImageAlt")}
-            className="w-full h-auto"
+            width={280}
+            height={560}
+            className="rounded-xl shadow-lg"
           />
         </div>
       </section>
 
-      {/* Alcance del borrado */}
+      {/* Alcance */}
       <section className="mt-10 prose prose-invert prose-zinc max-w-none">
         <h2>{t("scopeTitle")}</h2>
         <p>{t("scopeText")}</p>
         <p className="text-sm text-zinc-400 mt-2">{t("verificationNote")}</p>
       </section>
 
-      {/* Estado / tiempos */}
+      {/* Estado */}
       <section className="mt-10 prose prose-invert prose-zinc max-w-none">
         <h2>{t("statusTitle")}</h2>
         <p>{t("statusText")}</p>
