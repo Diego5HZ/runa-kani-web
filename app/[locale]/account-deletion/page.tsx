@@ -48,7 +48,7 @@ export default async function AccountDeletionPage({
         <div className="mt-6 rounded-2xl border border-rk-gold/20 bg-black/20 p-4 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
             {/* Imagen Delete Account */}
             <Image
-                src={rkDelete}
+                src={rkHelp}
                 alt={t("stepImageAlt")}
                 width={280}
                 height={560}
@@ -63,7 +63,7 @@ export default async function AccountDeletionPage({
 
             {/* Imagen Help Center */}
             <Image
-                src={rkHelp}
+                src={rkDelete}
                 alt={t("helpCenterImageAlt")}
                 width={280}
                 height={560}
