@@ -52,30 +52,25 @@ export default async function PrivacyPage({
         <p className="mt-4 text-zinc-200">{t("intro")}</p>
       </header>
 
-      {/* Callout de eliminación */}
-      <div className="mb-8 rounded-2xl border border-rk-gold/30 bg-black/30 p-4">
-        <h2 className="text-base font-semibold">{t("ctaDeletionHelpTitle")}</h2>
-        <p className="mt-1 text-sm text-zinc-300">{t("ctaDeletionHelpText")}</p>
-        <Link
-          href={accountDeletionHref}
-          className="inline-block mt-3 rounded-lg border border-rk-gold px-3 py-1 text-sm text-rk-gold hover:bg-rk-gold hover:text-black transition"
-        >
-          {t("ctaDeletionHelpLink")}
-        </Link>
-      </div>
-
-      {/* TOC */}
+      {/* TOC retraíble */}
       <aside aria-label={t("toc")} className="mb-8 rounded-2xl border border-rk-gold/20 bg-black/30 p-4">
-        <h2 className="text-sm font-medium mb-3">{t("toc")}</h2>
-        <ul className="space-y-2 text-sm">
-          {sections.map(s => (
-            <li key={s.id}>
-              <a href={`#${s.id}`} className="hover:text-rk-gold underline-offset-4 hover:underline">
-                {s.title}
-              </a>
-            </li>
-          ))}
-        </ul>
+        <details open>
+          <summary className="text-sm font-medium cursor-pointer select-none list-none">
+            {t("toc")}
+          </summary>
+          <ul className="mt-3 space-y-2 text-sm pl-1">
+            {sections.map(s => (
+              <li key={s.id}>
+                <a
+                  href={`#${s.id}`}
+                  className="hover:text-rk-gold underline-offset-4 hover:underline"
+                >
+                  {s.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </details>
       </aside>
 
       {/* Contenido */}
@@ -134,6 +129,18 @@ export default async function PrivacyPage({
         <h2>{t("controllerTitle")}</h2>
         <p>{t("controllerText")}</p>
       </section>
+
+      {/* Callout de eliminación (al final) */}
+      <div className="mt-12 rounded-2xl border border-rk-gold/30 bg-black/30 p-4">
+        <h3 className="text-base font-semibold">{t("ctaDeletionHelpTitle")}</h3>
+        <p className="mt-1 text-sm text-zinc-300">{t("ctaDeletionHelpText")}</p>
+        <Link
+          href={accountDeletionHref}
+          className="inline-block mt-3 rounded-lg border border-rk-gold px-3 py-1 text-sm text-rk-gold hover:bg-rk-gold hover:text-black transition"
+        >
+          {t("ctaDeletionHelpLink")}
+        </Link>
+      </div>
     </article>
   );
 }
