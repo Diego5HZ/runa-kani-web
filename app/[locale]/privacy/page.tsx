@@ -27,7 +27,8 @@ export default async function PrivacyPage({
     { id: "controller",title: t("controllerTitle") }
   ];
 
-  const accountDeletionUrl = `https://tu-dominio.com/account-deletion`;
+  // Solo ruta interna
+  const accountDeletionHref = `/${locale}/account-deletion`;
 
   return (
     <article className="max-w-3xl mx-auto px-6 py-16">
@@ -56,7 +57,7 @@ export default async function PrivacyPage({
         <h2 className="text-base font-semibold">{t("ctaDeletionHelpTitle")}</h2>
         <p className="mt-1 text-sm text-zinc-300">{t("ctaDeletionHelpText")}</p>
         <Link
-          href={accountDeletionUrl}
+          href={accountDeletionHref}
           className="inline-block mt-3 rounded-lg border border-rk-gold px-3 py-1 text-sm text-rk-gold hover:bg-rk-gold hover:text-black transition"
         >
           {t("ctaDeletionHelpLink")}
@@ -105,7 +106,7 @@ export default async function PrivacyPage({
 
       <section id="deletion" className="prose prose-invert prose-zinc max-w-none mt-10">
         <h2>{t("deletionTitle")}</h2>
-        <p>{t("deletionText", { accountDeletionUrl })}</p>
+        <p>{t("deletionText", { accountDeletionUrl: accountDeletionHref })}</p>
       </section>
 
       <section id="location" className="prose prose-invert prose-zinc max-w-none mt-10">
